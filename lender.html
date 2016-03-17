@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRATIS WIFI</title>
+	<meta charst="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js
+"></script>
+
+	<script src="app.js"></script>
+	
+</head>
+
+<body class="main"  ng-app="myApp" ng-controller="mapController">
+<div class="header"><img class="logo" src="img/logo.png" max-width="100%" height="80px" />Money Lender</div>
+<div class="row">
+  
+
+  <div class="col-xs-6" id="left">
+  	<div class="bedrag">
+  		<span>&euro; </span><span>0</span>
+  	</div>
+  	<div class="namenlijst">
+  		<h2 class="title">ADD PERSON</h2>
+  		<form>
+  			<p>
+  			<label>Title</label>
+  			<INPUT type="text" placeholder="..." ng-model="title"></INPUT>
+  			</p>
+  			<p>
+  			<label>Name:</label>
+  			<INPUT type="text" placeholder="..." ng-model="name"></INPUT>
+  			</p>
+  			<p>
+  			<label>Bedrag:  &euro;</label>
+  			<INPUT type="text" placeholder="..." ng-model="money"></INPUT>
+  			</p>
+  			<p>
+  			<label>note:</label>
+        	<textarea cols="25" rows="7" placeholder="..." ng-model="note"></textarea>
+        	</p>
+        	<br/>
+        	<select >
+        		<option value="receive" selected="selected">receive</option>
+        		<option value="owes">owes</option>
+
+        	</select>
+        	<br />			
+  			<button id="knop" ng-click="add()">ADD</button>
+  		</form>
+  		
+  		
+  	</div>
+  </div>
+  
+
+  <div class="col-xs-6" id="right">
+  	<div class="stuff">
+  		
+  	</div>
+  </div>
+
+</div>
+</body>
+</html>

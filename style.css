@@ -1,0 +1,53 @@
+.main
+{
+	background-color: #fc3d39;
+}
+
+.title{font-size: 130%; font-weight: bolder;}
+
+.header{background-color: #fcf439;
+ 	width: 40%;
+  	font-family: arial;
+   	font-weight: bolder;
+	font-size: 500%;
+ 	text-align: center;
+  	margin: 2% 3%;
+	border: 3px solid 	#fc9f39;
+	box-shadow: 
+       0 0 0 5px #39fc9f, 
+       0 0 0 10px #9f39fc,
+       0 0 0 15px 	#3996fc;
+}
+.bedrag
+{
+	background-color: 	#fc9f39;
+	border: 3px solid #9f39fc;
+	font-family: arial;
+	font-size: 250%;
+	margin: 3% 4%;
+	width: 30%;
+	padding: 1%;
+}
+.namenlijst
+{
+	background-color: 	#fc9f39;
+	border: 3px solid #9f39fc;
+	font-family: arial;
+	font-size: 150%;
+	margin: 3% 4%;
+	width: 50%;
+	padding: 1%;
+}
+
+form{margin: 5%;}
+.stuff
+{
+	background-color: #39fc9f;
+	width: 60%;
+}
+.pin{margin-top: 10%;
+	background-color: #9f39fc;
+}
+.logo{
+	padding-bottom: 2%;
+}
